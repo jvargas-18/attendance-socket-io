@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const socket = io('https://your-socketio-server.railway.app', {
+const socket = io('https://attendance-socket-io.onrender.com', {
   transports: ['polling', 'websocket'],
   reconnection: true,
   reconnectionDelay: 1000,
